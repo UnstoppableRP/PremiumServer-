@@ -1,0 +1,21 @@
+--Name: Clothing | 2021-06-02T19:15:28Z
+BoxZone:Create(vector3(73.92, -1392.14, 29.81), 1, 1, {
+  name="Clothing",
+  heading=0,
+  --debugPoly=true
+})
+
+--Name: Duty | 2021-06-02T20:35:52Z
+BoxZone:Create(vector3(441.26, -981.84, 30.69), 2, 2, {
+  name="Duty",
+  heading=0,
+  --debugPoly=true
+})
+
+--Name: fish | 2021-06-03T17:55:09Z
+BoxZone:Create(vector3(-1038.5, -1397.12, 5.55), 1, 1, {
+  name="fish",
+  heading=0,
+  --debugPoly=true
+})
+

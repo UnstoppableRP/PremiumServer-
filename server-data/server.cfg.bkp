@@ -1,0 +1,496 @@
+set es_enableCustomData 1 
+set mysql_connection_string "server=localhost;database=essentialmode;userid=root;password=" 
+endpoint_add_tcp "0.0.0.0:30127" 
+endpoint_add_udp "0.0.0.0:30127" 
+sv_maxclients 64
+# You probably don't want to change these!
+# Only change them if you're using a server with multiple network interfaces.
+
+setr voice_use3dAudio true
+setr voice_useSendingRangeOnly true
+
+# These resources will start by default.
+ensure ghmattimysql
+ensure mapmanager
+ensure spawnmanager
+ensure sessionmanager
+ensure fivem
+ensure hardcap
+#ensure ghmattimysql
+ensure mysql-async
+ensure essentialmode
+ensure esplugin_mysql
+ensure async
+ensure cron
+ensure tprp_base
+ensure tprp-menu
+ensure tprp-list
+ensure dialog-menu
+ensure chat
+ensure 911
+ensure store-robberies
+ensure np-cowboyschool
+ensure billing
+ensure society
+ensure kingkefa_impound
+ensure accounts
+ensure tprp
+ensure webpack
+ensure screenshot-basic
+ensure plategenerator
+ensure mix_loadingscreen
+ensure esx_marker
+ensure esx_skin
+ensure skinchanger
+ensure skincreator
+ensure raid_clothes
+ensure norewards
+ensure esx_adminzone
+#ensure 5m-skills
+ensure PvP
+ensure vSync
+ensure LegacyFuel
+ensure qSpawnHub
+ensure gasmlo
+ensure mumble-voip
+ensure rp-radio
+ensure ESX-Banker-Job
+ensure discord
+ensure discordroles
+ensure kp-stress
+ensure core_evidencev2
+ensure admin
+ensure arrest-animation
+
+ensure Simple-World-Clear
+start sWorldClear
+
+#ensure ambition-fxlaunch
+#ensure ambition-rnr
+#ensure ambition-patches
+
+ensure StreetRaces
+ensure quadracar
+
+
+
+### 5M PHONE ###
+ensure gcphone
+ensure esx_addons_gcphone
+ensure xsound
+
+### API ###
+ensure EasyAdmin
+ensure esx_adminmode-1.2
+ensure NativeUI
+ensure eup-ui
+ensure eup-stream
+ensure jsfour-register
+ensure mythic_progbar
+ensure mythic_notify
+ensure mythic_hospital
+ensure t0sic_loadingbar
+ensure esx_zaidejumeniu
+ensure ft_libs
+ensure interact-sound
+ensure progressBars
+ensure fivem-ipl
+ensure iplLoader
+ensure progbars
+ensure parachute
+ensure trafficadjuster
+ensure esx_teleports
+ensure simple-banking
+ensure suicide
+ensure ShowID
+
+
+### MISC ###
+ensure takehostage
+ensure notepad
+ensure 3dme
+ensure betrayed_entornos
+#ensure set-duty
+ensure WeazelNewsCam
+ensure tp-menu
+ensure ping_player
+ensure sound
+ensure mhacking
+ensure tp-nitro
+ensure weapon-accesories
+ensure tp-gunmeta
+ensure tp-gunmetaDLC
+ensure Binoculars
+ensure jsfour-licenseplate
+ensure armour
+ensure tp-garages
+ensure kits
+ensure citizenid
+ensure jz-carry
+#ensure esx_vhsText
+ensure es_ui
+ensure RealisticVehicleFailure
+ensure crouch
+ensure np-tackle
+ensure tp-tuner
+ensure lesslethal_shotgun
+ensure vstancer
+ensure tp-civ-mdt
+ensure bertbert
+#ensure esx_accessories
+ensure jobs
+ensure esx_fivemserversscoreboard
+ensure discordWhitelist
+ensure discordbuttons
+#ensure shops
+ensure james_fishing
+ensure PannelBlips
+#ensure armoury
+ensure mv_gimnasio
+ensure wk_wars2x
+#ensure gen-dispatch
+ensure NoDriveBy
+ensure handsup
+ensure BlipsBuilder
+ensure limits
+ensure xnCayoPerico
+ensure patoche_fight
+ensure breze_church
+
+ensure disc-base 
+ensure disc-inventoryhud
+
+ensure np-vehicleconfig
+ensure np-vehiclewheels
+
+ensure prp-pdm
+ensure prp-pdm2
+ensure prp-carsounds
+ensure prp-copcars
+
+ensure Simple-World-Clear
+ensure esx_RealisticVehicleFailure
+
+### HUD ###
+ensure Inventory-Sorter
+ensure character-menu
+ensure sharp-spawnselect
+#ensure core_vehicle
+ensure crafting
+ensure status
+ensure basicneeds
+ensure license
+ensure dmvschool
+ensure gunschool
+#ensure licenseshop
+ensure optionalneeds
+#ensure doorlock
+ensure nui_doorlock
+ensure map-atlas
+##ensure Textures
+ensure MF_DopePlant
+
+### Banking
+
+
+### MLOS/YMAPS/STREAMED ###
+ensure prison
+ensure prisonprops
+ensure mlo_paleto
+#ensure casinointerior
+#ensure casinoexterior
+#ensure lspdloader
+ensure gabz_mrpd
+ensure pdgarage
+ensure lost-mc
+ensure bahamaMama
+ensure tp-mapmods
+ensure vegetation
+ensure viceroy
+ensure gabz_pillbox_hospital_v2
+####ensure dealer
+###ensure SLBK11_MissionRow
+ensure VisualSettings
+ensure np-burgershot
+ensure esx_sit
+ensure pacific_bank
+ensure vineyards
+ensure gabz_bennys
+ensure sandysheriff-mlo
+ensure verpi_jobcentre
+ensure mansion
+ensure weaponry
+ensure rojo_trinity_billboard
+ensure restaurant
+ensure coffee
+ensure motel_beach
+ensure smedical-mlo
+ensure hunting
+ensure pablito_rockfordhills
+ensure assets_weapons
+#ensure vinewoodpolicestation
+#ensure vvs_airschool
+
+
+##s# VEHICLES ###
+ensure tp-benny
+#ensure TunningSystem
+ensure ngt19
+ensure Towsilv
+ensure Towtruck
+ensure TowWrecker
+ensure tp-garbagecrew
+ensure np-votesystem
+ensure esx_clip
+ensure dpclothing
+
+### JOBS ###
+ensure tp-miscjobs
+ensure goPostal
+ensure omnibus
+ensure tp-jobs
+ensure Deliveries
+#ensure mechanic
+ensure esx_lscustoms
+ensure joblisting
+ensure taxijob
+ensure ets
+ensure tp-garbagecrew
+ensure esx_SalvageDiving_v1-6
+ensure dynasty8
+ensure realestate
+ensure esx_Airport
+###Train###
+#start TrainSportation
+#start TrainJob
+#start 5m_traincargo
+#start traindriver
+#ensure esx_construction5m
+####Amazon###
+
+
+
+ensure Amazon
+#ensure amazon-map
+###NewsReporter###
+#ensure newspaper
+ensure carweazelnews
+ensure 5m_weazelnews
+ensure srp_weazelnews
+ensure WeazelNewsPack
+
+### Police ###
+ensure police
+#ensure esx_outlawalert
+ensure jail
+ensure policeform
+ensure tp-policedog
+
+##robbery
+start Notification
+start t0sic_loadingbar
+start threatbar
+start houseRobberies
+
+
+### Police Cars ###
+ensure code3megapackrb
+ensure sheriff
+
+
+
+### EMS ###
+ensure tp-mdt-ems
+ensure ambulancejob
+#ensure esx_plasticsurgery
+
+### SHOPS ###
+ensure boatshop
+#ensure esx_lscustom
+ensure esx_heal
+ensure chames_barbershop
+ensure tp-scrapyard
+ensure tp_contract
+ensure vehcontrol
+
+### HOUSING ###
+start allhousing
+start furni
+start HousingShells
+start input
+start mediumShells
+start modernhousingpack
+start officeshells
+start mythic_interiors
+start shellslocked
+start shellstorepack
+start shellsv2
+start V2highendShells
+start warehouseshells
+start lockpicking
+ensure LockPicking2
+start int_lodge
+ensure dmv
+ensure Serverlogging
+ensure simple_watermark
+
+### WAREHOUSE BUSINESSES ###
+#start 5M_deliveryjob
+#start ub-warehouse
+#start wh2
+
+
+### 5M POLICE CAD ###
+#start 5mservers_mdt
+#start 5mservers_mdt_prop
+start tp-mdt
+
+### CRIMINAL ###
+ensure fivem-drilling
+ensure mugging
+ensure anthony_jewl_store
+ensure t1ger_bankrobbery
+ensure removeAIcops
+ensure utk_fingerprint
+ensure utk_hackdependency
+ensure lockpicking
+ensure 5m_notifications
+ensure drugshells
+ensure t1ger_drugbusiness
+ensure pd-weapons
+ensure cd_drawtextui
+ensure tp-emotes
+
+
+#Drugs & Selling
+ensure esx_moneylaundry
+#ensure esx_teleports
+#ensure fivemserv_drugs
+#ensure erp-selltonpc
+ensure qb-tunerchip
+ensure wk_wars2x
+
+### ADMIN MENU ###
+ensure admin
+ensure admin_menu
+ensure warmenu
+ensure esx_AdminJob
+ensure staffchallenger
+
+### UPDATE 4 ###
+ensure fivem_Purge
+ensure InteractSound
+ensure fivemserver_hacker
+ensure esx_mobilemeth
+ensure RNG_CarBomb
+ensure esx_cherryfarm
+ensure pack1
+ensure mcraptor
+ensure m8
+ensure g1
+ensure Brabus850
+ensure nfw_locksystem
+
+### Update 6 ###
+ensure rkf_showroom
+ensure core_dispach
+ensure sell-bottles
+ensure tprp-grandmas
+
+### FIREDEPARMENT ###
+#ensure fire
+#ensure firescript
+ensure t1ger_drugs
+### Car Dealerships ###
+ensure esx_vehicleshop
+ensure 5m_vehicleshop
+ensure vehicleshop
+
+ensure cosmo_hud
+ensure Carhud
+ensure Speedhud
+ensure szi_atmrobbery
+
+#### Interact
+ensure nh-context
+ensure bt-target
+ensure fishy_burgershot
+ensure fishy_taskbar
+ensure vulcan_pickup_bike_more_bikes
+ensure gl-interactiveShops
+
+ensure esx_vehiclelock
+
+
+# This allows players to use scripthook based plugins such as lambda menu.
+# Set this to 0 to disallow scripthook.
+sv_scriptHookAllowed 0
+
+sv_master1
+
+# Uncomment this to enable RCON. Make sure to change the password.
+rcon_password d671625958LSL2020
+
+# A comma-separated list of tags for your server.
+# For example:
+# - sets tags "drifting, cars, racing"
+# Or:
+# - sets tags "roleplay, military, tanks"
+sets tags "roleplay, custom cars, custom drugs, custom jobs"
+sets Developer "baby yoda"
+# A valid locale identifier for your server's primary language.
+sets local indentifier "en-US"
+# please DO replace root-AQ on the line ABOVE with a real language! :)
+
+
+# Set an optional server info and connecting banner image url.
+# Size doesn't matter, any banner sized image will be fine.
+#sets banner_detail "https://i.imgur.com/mHh2lkm.png" 
+#sets banner_connecting "https://i.imgur.com/f1KIIV1.png" 
+
+# Set your server's hostname
+set sv_hostname "^UnstoppableRP ^3| ^8In Development"
+# ^8Looking for ^2Gangs, ^5Police ^3& ^1EMS ^3 | ^6Custom Drugs & Jobs ^3| ^0discord.gg/VdTYw5A"
+
+set sv_projectName "Unstoppable Roleplay"
+set sv_projectDesc "Custom Drugs, Custom Housing, Custom Robberies and LOTS more!"
+
+sv_tebexSecret 599354215980a0446dd6b771ea6a24f3a30d08e2
+
+# Nested configs!
+#exec server_internal.cfg
+
+# Loading a server icon (96x96 PNG file)
+load_server_icon logo.png
+
+# convars which can be used in scripts
+set temp_convar "hey world!"
+
+# Uncomment this line if you do not want your server to be listed in the server browser.
+#sv_master1 ""
+
+# Want to only allow players authenticated with a third-party provider like Steam?
+# Don't forget Social Club is a third party provider too!
+#sv_authMaxVariance 1
+#sv_authMinTrust 5
+
+# Add system admins
+add_ace group.admin command allow # allow all commands
+add_ace group.admin command.quit deny # but don't allow quit
+add_principal identifier.steam:11000010ebf47cb group.admin
+add_principal identifier.steam:110000105dfeca8 group.admin # add the admin to the group 
+
+# Hide player endpoints in external log output.
+sv_endpointprivacy true
+
+setr ea_LanguageName "en-US"
+setr ea_MenuButton "316"
+
+onesync_enabled 1
+
+sv_licenseKey "sdj12pie68n679ck8i5rlgtm8m1ytkej"
+
+set steam_webApiKey "46B58C59BB510ED014CBC5D8F06219C4"
+
+set sv_enforceGameBuild 2189
+
