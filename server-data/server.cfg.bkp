@@ -1,7 +1,7 @@
 set es_enableCustomData 1 
 set mysql_connection_string "server=localhost;database=essentialmode;userid=root;password=" 
-endpoint_add_tcp "0.0.0.0:30127" 
-endpoint_add_udp "0.0.0.0:30127" 
+endpoint_add_tcp "0.0.0.0:30121" 
+endpoint_add_udp "0.0.0.0:30121" 
 sv_maxclients 64
 # You probably don't want to change these!
 # Only change them if you're using a server with multiple network interfaces.
@@ -190,8 +190,69 @@ ensure map-atlas
 ##ensure Textures
 ensure MF_DopePlant
 
-### Banking
+### Update 7 ###
+ ## New Hud ##
+start Carhud
+start Map
+start Playerhud
+start Speedhud
+ ## Main Dir ##
+start BlipsBuilder
+start brzinomer
+start Compass-and-street-name-HUD
+start core_crafting
+start core_vehicle
+start gen-dispatch
+start ls-radio
+start sandysheriff-mlo
+start smedical-mlo
 
+### Update 8 ###
+ ## Maps ##
+start aassets_weapons
+ ## Scripts ##
+ ## TargetSystem ##
+start bt-target
+start fishy_burgershot
+start _fishey_taskbar
+start nh-context
+start np-burgershot
+start vulcan_pickup_bike_more_bikes
+ ## Main Dir. ##
+start 911
+start anthony_jewl_store
+start cd_drawtextui
+start chat
+start core_dispach
+start cosmo_hud
+start CrewSystem
+start esx_sit
+start esx_vehiclelock
+start gl-interactiveShops
+start icon_menu
+start jz-carry
+start kingkefa_impound
+start kp-stress
+start limits
+start map-atlas
+start npc
+start np-tackle
+start pd-weapons
+start sharp-spawnselect
+start ShowID
+start simple_watermark
+start simple-banking
+start StreetRaces
+start suicide
+start xnCayoPerico
+ ## StreamStuff ##
+start breze_church
+start np-cowboyschool
+start np-vehicleconfig
+start np-vehiclewheels
+
+### Banking
+start PolyZone
 
 ### MLOS/YMAPS/STREAMED ###
 ensure prison
@@ -449,7 +510,7 @@ sets local indentifier "en-US"
 #sets banner_connecting "https://i.imgur.com/f1KIIV1.png" 
 
 # Set your server's hostname
-set sv_hostname "^UnstoppableRP ^3| ^8In Development"
+set sv_hostname "^UnstoppableRP! ^3| ^8In Development"
 # ^8Looking for ^2Gangs, ^5Police ^3& ^1EMS ^3 | ^6Custom Drugs & Jobs ^3| ^0discord.gg/VdTYw5A"
 
 set sv_projectName "Unstoppable Roleplay"
